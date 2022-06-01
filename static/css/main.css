@@ -44,8 +44,7 @@ blockquote, q {
     content: none; }
 
 table {
-  border-collapse: separate;
-  border-spacing: 7vw; }
+  border-collapse: separate;}
 
 body {
   -webkit-text-size-adjust: none; }
@@ -295,8 +294,8 @@ h1, h2, h3, h4, h5, h6 {
     text-decoration: none; }
 
 h1 {
-  position: fixed;
-  left: 150px;
+  position: static;
+  left: 80px;
   top: 80px;
   font-size: 2.5em;
   line-height: 1.25em;
