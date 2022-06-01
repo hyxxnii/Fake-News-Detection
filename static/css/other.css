@@ -23,33 +23,6 @@ section, summary, time, mark, audio, video {
   font: inherit;
   vertical-align: baseline; }
 
-/* tooltip */
-
-.tooltip {
-  display: inline-block;
-  color: deeppink;
-  font-weight: bold;
-}
-
-.tooltip-text {
-  display: none;
-  position: absolute;
-  /*width: 480px;*/
-  /*height: 60px;*/
-  border: 1px solid;
-  border-radius: 5px;
-  padding: 5px;
-  font-size: 0.8em;
-  word-break:break-all;
-  color: white;
-  background: deeppink;
-}
-
-
-.tooltip:hover .tooltip-text {
-  display: block;
-}
-
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav {
   display: block; }
@@ -104,8 +77,8 @@ table.type06 .even {
 /*}*/
 
 img {
- width : 40%;
- height: 70%;
+ width : 40vw;
+
 }
 
 body {
